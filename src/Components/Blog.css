@@ -1,0 +1,126 @@
+.title {
+  text-align: center;
+  background-image: linear-gradient(#f664c6, #fabf65);
+  color: rgb(0, 0, 0);
+  padding: 0.3em;
+}
+
+.headerBlog {
+  text-align: center;
+}
+
+.textArea {
+  width: 50%;
+  margin-left: 24%;
+}
+
+.displayBlog {
+  margin-right: 3em;
+}
+
+textarea {
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  height: 10em;
+  border: 3px solid black;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Cedarville Cursive", cursive;
+}
+
+.postBtn {
+  text-align: center;
+}
+
+.post {
+  padding: 15px 25px;
+  font-size: large;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+.fileInput {
+  font-size: 22px;
+  margin-left: 0.5em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 3em;
+}
+
+.imgBlog {
+  max-width: 40%;
+}
+
+.column1 {
+  border: 1px solid rgb(112, 112, 112);
+  background-color: rgb(240, 240, 240);
+  color: black;
+  border-radius: 20px;
+  width: 50%;
+  text-align: justify;
+  word-spacing: 10px;
+  font-size: larger;
+  font-family: "Cedarville Cursive", cursive;
+  padding: 1em;
+}
+
+.column2 {
+  width: 45%;
+  height: 40%;
+  border: 1 px solid red;
+}
+
+.btnDiv {
+  text-align: center;
+}
+
+.editBtn {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  font-size: large;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.deleteBtn {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  font-size: large;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.likeText {
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 100%;
+}
+
+.actionList {
+  column-gap: 5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dateDiv {
+  padding-top: 1.5em;
+}
