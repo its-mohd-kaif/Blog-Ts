@@ -122,8 +122,8 @@ function Blog() {
       </div>
       <div className="displayBlog">
         <ul>
-          {data.map((item: obj) => (
-            <ul>
+          {data.map((item: obj, index) => (
+            <ul key={index}>
               <div className="row">
                 <div className="column1">
                   <li>
